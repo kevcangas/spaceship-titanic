@@ -34,7 +34,7 @@ The data given by Kaggle has the features:
 
 The features __PassengerId__ and __Name__ are not functionally to the models implemented, so, they can be erased from the dataset. The feature __Cabin__ can be separated in three different new features that are Deck, Num, Side, all this to improve the data.
 
-All this analysis can be founded in the notebook [dataAnalysis.ipynb](dataAnalysis.ipynb).
+All these analysis can be founded in the notebook [dataAnalysis.ipynb](dataAnalysis.ipynb).
 
 ### Results
 
@@ -44,31 +44,31 @@ The results of the different models are the following.
 
         precision    recall  f1-score   support
 
-    False       0.80      0.79      0.80      1203
-    True       0.80      0.81      0.81      1240
+        False       0.80      0.79      0.80      1203
+        True       0.80      0.81      0.81      1240
 
-    accuracy                           0.80      2443
-    macro avg       0.80      0.80      0.80      2443
-    weighted avg       0.80      0.80      0.80      2443
+        accuracy                           0.80      2443
+        macro avg       0.80      0.80      0.80      2443
+        weighted avg       0.80      0.80      0.80      2443
 
 - Random Forest:
 
         precision    recall  f1-score   support
 
-    False       0.77      0.80      0.78      1203
-    True       0.80      0.77      0.78      1240
+        False       0.77      0.80      0.78      1203
+        True       0.80      0.77      0.78      1240
 
-    accuracy                           0.78      2443
-    macro avg       0.78      0.78      0.78      2443
-    weighted avg       0.78      0.78      0.78      2443
+        accuracy                           0.78      2443
+        macro avg       0.78      0.78      0.78      2443
+        weighted avg       0.78      0.78      0.78      2443
 
 - Tree Classifier:
 
         precision    recall  f1-score   support
 
-    False       0.75      0.83      0.79      1303
-    True       0.81      0.72      0.77      1305
+        False       0.75      0.83      0.79      1303
+        True       0.81      0.72      0.77      1305
 
-    accuracy                           0.78      2608
-    macro avg       0.78      0.78      0.78      2608
-    weighted avg       0.78      0.78      0.78      2608
+        accuracy                           0.78      2608
+        macro avg       0.78      0.78      0.78      2608
+        weighted avg       0.78      0.78      0.78      2608
