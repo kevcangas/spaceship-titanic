@@ -6,6 +6,7 @@
 - Seaborn
 - Matplotlib
 - Numpy
+- Pandas
 
 ### Description
 
