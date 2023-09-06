@@ -16,13 +16,11 @@ def run():
 
     df = pd.read_csv(dir_csv)
 
-
     #Drop Name and PassengerId
     try:
         df = df.drop(["Name","PassengerId"], axis=1)
     except:
         pass
-
 
     #Separation of Cabin
     try:
@@ -50,6 +48,8 @@ def run():
         df.to_csv(dir_new_csv, encoding='utf-8',index=False)
     except:
         df.to_csv('./transformed_train.csv', encoding='utf-8',index=False)
+    
+    print("Process terminated!")
 
 
 #Entry point
